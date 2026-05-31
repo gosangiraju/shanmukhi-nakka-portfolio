@@ -1,0 +1,206 @@
+.sectionTitle {
+  font-size: 2.5rem;
+  color: #fff;
+  border-bottom: 2px solid var(--accent-color);
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* About */
+.aboutText {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  text-align: justify;
+}
+
+/* Experience */
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: var(--accent-color);
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  margin-left: -1px;
+}
+
+.timelineItem {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 100%;
+}
+
+.timelineItem::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: -7px;
+  background-color: var(--bg-color);
+  border: 4px solid var(--accent-hover);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  left: 12px;
+}
+
+.timelineContent {
+  padding: 20px 30px;
+  background-color: rgba(17, 32, 54, 0.7);
+  backdrop-filter: blur(12px);
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.timelineContent h3 {
+  margin-bottom: 0.2rem;
+  color: var(--accent-hover);
+}
+
+.timelineContent h4 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.timelineContent .date {
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.timelineContent ul {
+  padding-left: 1.5rem;
+}
+
+.timelineContent li {
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+/* Projects */
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectCard h3 {
+  color: var(--accent-hover);
+  margin-bottom: 0.5rem;
+}
+
+.techStack {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  font-style: italic;
+  font-family: monospace; /* Hardware coding feel */
+  background: rgba(0,0,0,0.2);
+  padding: 0.4rem;
+  border-radius: 4px;
+}
+
+.projectCard ul {
+  padding-left: 1.2rem;
+  margin-top: auto;
+}
+
+.projectCard li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* Skills */
+.skillCategory {
+  margin-bottom: 2rem;
+}
+
+.skillCategory h3 {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.skillTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.skillTag {
+  background: rgba(212, 175, 55, 0.05);
+  color: var(--accent-hover);
+  padding: 0.5rem 1rem;
+  border-radius: 4px; /* Square tags for hardware style */
+  font-size: 0.9rem;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  transition: all var(--transition-speed) ease;
+  font-family: monospace;
+}
+
+.skillTag:hover {
+  background: rgba(212, 175, 55, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(212, 175, 55, 0.1);
+}
+
+/* Certifications & Education */
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem h3 {
+  color: var(--accent-hover);
+  margin-bottom: 0.2rem;
+}
+
+.listItem p {
+  color: var(--text-secondary);
+}
+
+.certLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(17, 32, 54, 0.4);
+  transition: background 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.certLink:hover {
+  background: rgba(17, 32, 54, 0.8);
+  color: var(--accent-hover);
+  border-color: rgba(212, 175, 55, 0.3);
+}
