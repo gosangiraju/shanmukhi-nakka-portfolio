@@ -5,7 +5,7 @@ export default function About() {
     <section id="about">
       <h2 className={styles.sectionTitle}>Professional Summary</h2>
       <p className={styles.aboutText}>
-        VLSI Physical Design trainee and Electronics & Electrical Engineering graduate with hands-on experience in end-to-end physical design implementation using industry-standard EDA tools. Proficient in the complete physical design flow — floor planning, placement, CTS, routing, and timing closure — on a real 28nm multi-voltage design. Additionally skilled in PCB design using KiCad and Eagle, MATLAB simulation, and embedded systems. Eager to contribute to a high-performance engineering team and grow within the VLSI or hardware design domain.
+        Electronics & Electrical Engineering graduate specializing in Hardware & PCB Design, schematic capture, and multi-layer board layout using KiCad, Eagle, and Altium Designer. Proven experience developing 2-layer and 4-layer PCBs, power supply topologies (DC-DC buck converters), and microcontroller-based embedded hardware. Skilled in EMI/EMC-aware routing, ground plane optimization, component selection (BOM), and hands-on lab testing using oscilloscopes, multimeters, and soldering equipment. Eager to contribute to high-reliability hardware development as a fresher Hardware / PCB Design Engineer.
       </p>
     </section>
   );

@@ -6,7 +6,7 @@ export default function Hero() {
       <h1 className={styles.title}>
         <span className={styles.highlight}>Shanmukhi Nakka</span>
       </h1>
-      <h2 className={styles.subtitle}>VLSI Physical Design Engineer</h2>
+      <h2 className={styles.subtitle}>Hardware & PCB Design Engineer</h2>
       
       <p className={styles.contact}>
         <a href="mailto:nakkashanmukhi@gmail.com" className="glass-card">nakkashanmukhi@gmail.com</a>

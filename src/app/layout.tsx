@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Shanmukhi Nakka | VLSI Physical Design Engineer',
-  description: 'Portfolio of Shanmukhi Nakka, an Electronics & Electrical Engineering graduate specializing in VLSI Physical Design and PCB design.',
+  title: 'Shanmukhi Nakka | Hardware & PCB Design Engineer',
+  description: 'Portfolio of Shanmukhi Nakka, an Electronics & Electrical Engineering graduate specializing in Hardware & PCB Design.',
 };
 
 export default function RootLayout({

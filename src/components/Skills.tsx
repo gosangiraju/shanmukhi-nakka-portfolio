@@ -3,28 +3,24 @@ import styles from './components.module.css';
 export default function Skills() {
   const skills = [
     {
-      category: 'VLSI Physical Design',
-      items: ['Floor Planning', 'Placement', 'CTS', 'Routing', 'Timing Closure', 'Multi-Voltage Design']
+      category: 'PCB Design Tools',
+      items: ['KiCad', 'Eagle', 'Altium Designer (Basic Layout & Schematic Capture)', 'Gerber Verification']
     },
     {
-      category: 'EDA Tools',
-      items: ['Synopsys ICC2 (Implementation)', 'PrimeTime (Timing Analysis)']
+      category: 'Hardware Design & Concepts',
+      items: ['2-Layer & 4-Layer Layout', 'Schematic Capture', 'Component Selection (BOM)', 'Datasheet Analysis', 'Ground Plane Optimization', 'Decoupling Strategies', 'Power Integrity', 'EMI/EMC-aware Routing', 'DRC/ERC', 'Thermal Relief']
     },
     {
-      category: 'PCB Design',
-      items: ['KiCad', 'Eagle (Schematic, Layout, Routing, DRC/ERC, Gerber Generation, 3D Visualization)']
+      category: 'Circuits & Protocols',
+      items: ['SPI', 'I2C', 'UART', 'DC-DC Buck/Boost Converters', 'Microcontrollers (ATmega328P)', 'Analog & Digital Circuit Design']
+    },
+    {
+      category: 'Lab & Hardware Testing',
+      items: ['Digital Multimeter (DMM)', 'Oscilloscope', 'Board Bring-up', 'Hardware Debugging', 'SMD & Through-Hole Soldering']
     },
     {
       category: 'Simulation & Scripting',
-      items: ['MATLAB', 'TCL (basic EDA automation)']
-    },
-    {
-      category: 'Operating Systems & Tools',
-      items: ['Linux (commands, file handling, shell)', '3D Printing']
-    },
-    {
-      category: 'Productivity',
-      items: ['Microsoft Excel & Word', 'Presentation & Report Writing']
+      items: ['MATLAB', 'TCL Scripting', 'C/Embedded Basics', 'Git Version Control', 'Linux Shell']
     }
   ];
 
